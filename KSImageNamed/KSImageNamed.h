@@ -29,4 +29,6 @@ typedef NS_ENUM(NSInteger, KSImageNamedCompletionStringType) {
 
 - (NSSet *)completionStringsForType:(KSImageNamedCompletionStringType)type;
 
+- (BOOL)atImageNamedForSourceTextView:(id)sourceTextView textStorage:(id)textStorage;
+
 @end

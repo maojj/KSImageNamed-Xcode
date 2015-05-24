@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F4ED06816ECBE7500250F46 /* KSImageNamedPreviewWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4ED06716ECBE7500250F46 /* KSImageNamedPreviewWindow.m */; };
+		20B2B3C31B12157500BC752B /* KSCompletionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B2B3C21B12157500BC752B /* KSCompletionItem.m */; };
 		3727E3B216AB34AA007DACD3 /* IDEIndexCompletionStrategy+KSImageNamed.m in Sources */ = {isa = PBXBuildFile; fileRef = 3727E3B116AB34AA007DACD3 /* IDEIndexCompletionStrategy+KSImageNamed.m */; };
 		3727E3B516AB350F007DACD3 /* DVTSourceTextView+KSImageNamed.m in Sources */ = {isa = PBXBuildFile; fileRef = 3727E3B416AB350F007DACD3 /* DVTSourceTextView+KSImageNamed.m */; };
 		37642FEA16B0C754002CC70F /* IDEIndex+KSImageNamed.m in Sources */ = {isa = PBXBuildFile; fileRef = 37642FE916B0C754002CC70F /* IDEIndex+KSImageNamed.m */; };
@@ -30,6 +31,8 @@
 /* Begin PBXFileReference section */
 		1F4ED06616ECBE7500250F46 /* KSImageNamedPreviewWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSImageNamedPreviewWindow.h; sourceTree = "<group>"; };
 		1F4ED06716ECBE7500250F46 /* KSImageNamedPreviewWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSImageNamedPreviewWindow.m; sourceTree = "<group>"; };
+		20B2B3C11B12157500BC752B /* KSCompletionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCompletionItem.h; sourceTree = "<group>"; };
+		20B2B3C21B12157500BC752B /* KSCompletionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCompletionItem.m; sourceTree = "<group>"; };
 		3727E3AE16AB341A007DACD3 /* XcodeMisc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XcodeMisc.h; sourceTree = "<group>"; };
 		3727E3B016AB34AA007DACD3 /* IDEIndexCompletionStrategy+KSImageNamed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IDEIndexCompletionStrategy+KSImageNamed.h"; sourceTree = "<group>"; };
 		3727E3B116AB34AA007DACD3 /* IDEIndexCompletionStrategy+KSImageNamed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IDEIndexCompletionStrategy+KSImageNamed.m"; sourceTree = "<group>"; };
@@ -138,6 +141,8 @@
 				37A2B52C15FE927F00D9AE1E /* MethodSwizzle.m */,
 				3727E3AE16AB341A007DACD3 /* XcodeMisc.h */,
 				37E5302615FE7DDB00753EB4 /* Supporting Files */,
+				20B2B3C11B12157500BC752B /* KSCompletionItem.h */,
+				20B2B3C21B12157500BC752B /* KSCompletionItem.m */,
 			);
 			path = KSImageNamed;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 				37A2B52D15FE927F00D9AE1E /* MethodSwizzle.m in Sources */,
 				37CEBA7815FE96F40090E015 /* KSImageNamedIndexCompletionItem.m in Sources */,
 				586F70C51818C1C900A91B84 /* DVTTextCompletionListWindowController+KSImageNamed.m in Sources */,
+				20B2B3C31B12157500BC752B /* KSCompletionItem.m in Sources */,
 				3727E3B216AB34AA007DACD3 /* IDEIndexCompletionStrategy+KSImageNamed.m in Sources */,
 				3727E3B516AB350F007DACD3 /* DVTSourceTextView+KSImageNamed.m in Sources */,
 				37B5873616AF5BD500B4787D /* DVTTextCompletionController+KSImageNamed.m in Sources */,
